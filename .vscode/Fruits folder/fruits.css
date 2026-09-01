@@ -1,0 +1,140 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffdf7;
+    line-height: 1.6;
+    color: #183b2b;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* header 
+class selectors
+*/
+
+.navbar {
+    width: 100%;
+    padding: 22px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navlinks {
+    display: flex;
+    gap: 32px;
+}
+
+.navlinks a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #183b2b;
+    transition: 0.3s;
+}
+
+.navlinks a:hover {
+    color: #f08c28;
+}
+
+.navbutton {
+    background-color: #183b2b;
+    color: floralwhite;
+    padding: 12px 22px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+
+}
+
+.navbutton:hover {
+    background-color: #0e4f32;
+    transform: translateY(-2px);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #0e4f32;
+}
+
+/* hero section */
+
+.hero {
+    min-height: 620px;
+    padding: 70px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 45%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.fruit-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #f5d86b;
+    box-shadow: 0 25px 60px ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.fruit {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    position: absolute;
+}
+
+.fruit-one {
+    top: 55px;
+    right: 20px;
+
+}
+
+.fruit-two {
+    bottom: 80px;
+    left: 30px;
+
+}
+
+.fruit-three {
+    bottom: 20px;
+    right: 80px;
+
+}
