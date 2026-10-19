@@ -1,0 +1,702 @@
+/* Navbar */
+
+* {
+    background-color: #ece2e2;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    padding: 22px, 56px;
+    display: flex;
+     gap: 72.5px;
+     margin: 10px;
+     padding: 10px;
+    justify-content: center;
+    align-items: center;
+      background-color: rgb(231, 227, 227);
+    margin: 0px 0px 50px 0px;
+    box-shadow: 3px 4px 3px #a9a9a7;
+}
+
+nav p {
+      background-color: rgb(231, 227, 227);
+}
+
+.pfp {
+       background-color: rgb(231, 227, 227);
+}
+
+.nav {
+    display: flex;
+    gap: 72.5px;
+    justify-content: center;
+    align-items: center;
+      background-color: #FCF9F8E5;
+
+}
+
+.logo {
+    font-size: 22px;
+    color: #1c1b1b;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ 
+.logo .dott {
+    display: flex;
+    align-items: flex-end;
+    margin: 7px 0px 0px 5px;
+}
+
+.searchbar-wrapper {
+    display: flex;
+    align-items: center;
+    width: 448px;
+    padding: 2px 9px 2px 9px ;
+    border-radius: 30px;
+     background-color:  white;
+     
+
+}
+
+
+
+
+
+.searchbar-wrapper svg {
+    width: 13.5px;
+    height: 13.5px;
+    color: #5d5c57;
+    flex-shrink: 0;
+       background-color: white;
+
+}
+
+.searchbar-wrapper input {
+    border: none;
+    outline: none;
+    padding: 9px 9px;
+    flex: 1;
+    background: transparent;
+    font-size: 13px; 
+      background-color:  white;
+}
+
+.navlinks {
+    display: flex;
+    gap: 24px;
+        background-color: rgb(231, 227, 227);
+}
+
+.pfp img {
+    height: 50px;
+    border-radius: 30px;
+    width: 50px;
+        background-color: rgb(231, 227, 227);
+}
+
+.navlinks a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #5A4137;
+    justify-items: center;
+    align-items: center;
+      background-color: rgb(231, 227, 227);
+}
+
+.btn-icn {
+     background-color: rgb(231, 227, 227);
+      border: none;
+}
+
+.btn-icn svg {
+     background-color: rgb(231, 227, 227);
+}
+
+.my-account {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+       background-color: rgb(231, 227, 227);
+
+}
+
+.my-account svg {
+    width: 14px;
+    height: 16px;
+    color: #1c1b1b;
+      background-color: rgb(231, 227, 227);
+}
+
+/* main page content */
+
+.page-des {
+    margin: 30px 40px 30px 40px;
+}
+
+.higher-des p {
+    background-color: #FFDBCE;
+    padding: 9px 10px 9px 10px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    width: fit-content;
+    font-size: 12px;
+    height: 16px;
+    font-weight: 600;
+}
+
+.higher-des h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0f0f0f;
+
+}
+
+.lower-des {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.lower-des .find {
+    color: #5A4137;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.rt {
+    display: flex;
+    gap: 15px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 12px;
+    border-radius: 12px;
+}
+
+.top {
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.tiny {
+    font-size: 11px;
+    color: #5D5C57;
+    font-weight: 300;
+}
+
+/* Search bar */
+
+.search {
+    margin: 30px 40px 30px 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: #a9a9a7 2px 5px 5px;
+}
+
+.tell-us {
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #ece2e2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 0px 15px 0px ;
+}
+
+.tell-us input {
+    border: none;
+    width: 100%;
+    background-color: #ece2e2;
+}
+
+.tt {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.filter {
+    display: flex;
+    gap: 7px;
+    background-color: white;
+}
+
+.filter p {
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    background-color: #ece2e2;
+    align-items: center;
+}
+
+.flt-txt p {
+    background-color: white;
+    border-radius: 0;
+    margin-left: 2px;
+}
+
+.flt-txt svg {
+    background-color: white;
+}
+
+.flt-txt {
+    background-color: white;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background-color: white;
+}
+
+.sort select {
+    background-color: #ece2e2;
+    border-radius: 50px;
+    padding: 10px 30px 10px 7px;
+    border: none;
+}
+
+.sort p {
+    background-color: white;
+}
+/* card styles */
+
+.menu-dir {
+   background-color: rgb(250, 245, 245);
+    margin-top: 56px;
+    padding-top: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 70px;
+}
+
+.menu-tabs {
+    display: flex;
+    gap: 7px;
+    padding: 10px 40px 30px 40px;
+}
+
+.tab {
+    box-shadow: 0px 2px 2px #333333;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.meals-des {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 95%;
+    padding: 30px 40px 30px 40px;
+    padding: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       background-color: rgb(250, 245, 245);
+}
+
+.meals {
+    color: #202020;
+    font-size: 25px;
+    background-color: rgb(250, 245, 245);
+     font-weight: 800;
+      padding: 30px 40px 0px 40px;
+}
+
+.items {
+    font-size: 13px;
+    background-color: rgb(250, 245, 245);
+    color: #878786;
+}
+
+.avg {
+    color: #50a001;
+    margin: 7px;  
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(250, 245, 245);
+}
+
+.timer {
+    color: #a04e01;
+
+}
+
+/* cards */
+#mealsGrid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px; 
+    padding: 30px 40px 50px 40px;
+    background-color: rgb(250, 245, 245);
+    
+}
+
+.card-rep {
+    border-radius: 20px;
+     background-color: white;
+     width: 100%;
+     height: 400px;
+    
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     overflow: hidden;
+     padding: 0px 0px 20px 0px;
+     flex: 0 0 auto;
+     box-shadow: 3px 3px 3px #a9a9a7;
+}
+
+.card-rep p, .nameOfFood {
+    background-color: white;
+}
+
+.card-rep img {
+     background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+     align-items: center;
+     margin-bottom: 15px; 
+     object-fit: cover;
+     padding-left: 0px;
+    
+}
+
+.type-container {
+     background-color: white;
+}
+
+.cost {
+     background-color: white;
+}
+
+.type-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding: 0px 10px 4px 10px;
+    margin: 0px ;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       
+
+}
+
+.type-container p {
+    color: #333333;
+    font-size: 15px;
+}
+
+.rating {
+     padding: 0px 10px 4px 10px;
+     margin: 0px ;
+     margin: 0;
+       width: 242;
+        height: 24;
+        
+        opacity: 1;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 10px;
+         background-color: #dbd2d2;
+}
+
+.type-container .rating {
+    border-radius: 10px;
+         background-color: #dbd2d2;
+         padding: 2px 8px 2px 8px;
+         gap: 3.99px;
+}
+
+.rating svg {
+    color: green;
+}
+
+.card-rep h3 {
+    padding: 4px 10px 4px 10px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin: 0px 0px 4px 0px;
+      width: 242;
+    height: 24;
+    font-size: 20px;
+  
+    opacity: 1;
+
+}
+
+.nf {
+     padding: 4px 10px 15px 10px;
+     margin: 0px ;
+   
+       width: 25;
+        height: 24;
+        
+        opacity: 1;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: white;
+
+}
+
+.des-type {
+    font-size: 14px;
+    color: #3d3c3c;
+     padding: 7px 10px 4px 10px;
+}
+
+.card-rep p {
+    width: 242;
+    height: 40;
+    
+    opacity: 1;
+    
+     padding: 0px 10px 4px 10px;
+      margin: 0;
+}
+
+.cost {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+   padding: 0px 10px 4px 10px;
+    margin: 0px ;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          
+}
+
+
+
+.k2 {
+    background-color: #a04e01;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 1;
+    border-radius: 20px;
+    margin: 10px 0px 0px 0px ;
+    border: none;
+    color: white;
+    padding: 10px;
+    height: 40px;
+}
+
+.k2 svg {
+    background-color: #a04e01;
+    border-radius: 50px;
+   
+    
+    
+}
+
+.k1 .cst {
+     font-size: 13px;
+    color: #3d3c3c;
+    padding: 7px 10px 4px 10px;
+    margin: 0px;
+    
+}
+
+.k1 .type-price {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* mini banner */
+
+.large {
+    
+    margin: 30px 40px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: #878786 3px 3px 3px;
+}
+
+.cooking p {
+    color: #5A4137;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: white;
+}
+
+.cooking h3 {
+    font-size: 20px;
+    background-color: white;
+}
+
+.elt {
+    display: flex;
+    background-color: white;
+    padding: 7px;
+    align-items: center;
+}
+.elt svg {
+    background-color: #e9c1c1;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.ert button {
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+.ert {
+    border-radius: 50px;
+    margin: 20px;
+}
+
+
+/* footer */
+
+.base {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 70px 48px 38px 48px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+
+
+footer {
+     margin: 70px 48px 50px 48px;
+}
+
+.QL-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.CT h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.CT .pot {
+    background-color: #dbd2d2;
+}
+
+.CT {
+    margin-right: 40px;
+}
+
+.CT .dott {
+    display: flex;
+    align-items: flex-end;
+    margin: 7px 0px 0px 5px;
+}
+
+.last-txt {
+    color: #5A4137;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.lagos {
+    background-color: #006E2D1A;
+    color: #006E2D;
+    border-radius: 50px;
+    padding: 4px 10px 4px 10px;
+    width: fit-content;
+}
+
+.lagos svg {
+    margin: 0px 2px 2px 0px;
+}
+
+.learn-more {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.QL-links a {
+    color: #5A4137;
+    text-decoration: none;
+    height: 30px;
+    font-size: 15px;
+}
+
+.CU {
+    margin: 0px 0px 0px 80px;
+    padding: 0px 10px 10px 10px;
+    font-size: 15px;
+    font-size: 15px;
+    
+}
+
+.CU p {
+     color: #5A4137;
+     font-size: 15px;
+     margin-bottom: 20px;
+}
+
+.CN {
+    font-size: 15px;
+  
+}
+
+.CN p {
+    font-size: 15px;
+    color: #5A4137;
+}
+
+.cnt-icns {
+    display: flex;
+
+}
+
+.CN svg {
+    border-radius: 50px;
+    margin: 5px;
+    padding: 15px;
+    background-color: #ffffff;
+}
